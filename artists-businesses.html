@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ARDENT connects independent artists, creative professionals and businesses through a proposed Central Florida creative ecosystem.">
+<meta name="theme-color" content="#11121b">
+<title>For Artists & Creative Businesses | ARDENT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+:root{--a-cyan:#48e2e7;--a-violet:#a77bff;--a-pink:#ff68b3;--a-orange:#ff9c62;--a-gold:#ffd36b}
+body{background:#11121b;color:#f8f5ff}
+.site-header{background:rgba(17,18,27,.96);border-bottom:1px solid #383347}
+.brand-mark{border-color:var(--a-cyan);color:var(--a-cyan)}.brand small{color:var(--a-pink)}
+.nav a:hover{color:var(--a-cyan)}.nav-cta{border-color:var(--a-pink)}
+.a-hero{position:relative;overflow:hidden;padding:120px 7vw 90px;background:radial-gradient(ellipse at 12% 22%,#7438bd66,transparent 38%),radial-gradient(ellipse at 88% 12%,#e8499060,transparent 34%),linear-gradient(125deg,#151225,#102b34 58%,#211329)}
+.a-hero:after{content:"";position:absolute;width:460px;height:460px;border:1px solid #ffffff22;border-radius:50%;right:-170px;bottom:-300px;box-shadow:0 0 0 38px #ffffff08,0 0 0 76px #ffffff06}
+.a-hero-inner{max-width:1050px;position:relative;z-index:1}.a-hero .eyebrow{color:var(--a-cyan);letter-spacing:.2em}
+.a-hero h1{font:600 clamp(48px,8vw,96px)/.99 "Playfair Display";max-width:1000px;margin:24px 0}.a-hero h1 em{background:linear-gradient(90deg,var(--a-cyan),var(--a-violet),var(--a-pink),var(--a-orange));-webkit-background-clip:text;background-clip:text;color:transparent}
+.a-hero p:not(.eyebrow){max-width:700px;color:#d2cddd;line-height:1.9;font-size:16px}.a-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.a-btn{display:inline-flex;padding:15px 22px;text-decoration:none;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--a-cyan);color:#10151b;background:var(--a-cyan)}
+.a-btn.secondary{background:transparent;color:#fff;border-color:#c18bff}
+.a-strip{padding:24px 7vw;background:#1c1a29;display:flex;gap:30px;justify-content:space-between;flex-wrap:wrap;border-block:1px solid #393248}
+.a-strip span{font-size:10px;letter-spacing:.14em;color:#d8cde8}
+.a-section{padding:85px 7vw}.a-heading{max-width:760px;margin-bottom:38px}.a-heading .eyebrow{color:var(--a-cyan)}.a-heading h2{font:600 clamp(38px,5vw,64px)/1.08 "Playfair Display";margin:15px 0}.a-heading h2 em{color:var(--a-pink)}.a-heading p{color:#c2bdcb;line-height:1.85;font-size:14px;max-width:680px}
+.a-dual{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.a-card{position:relative;overflow:hidden;min-height:460px;padding:36px;background:#201d31;border:1px solid #504064;display:flex;flex-direction:column}
+.a-card.business{background:linear-gradient(145deg,#142c36,#20203a 70%,#321c38);border-color:#35636d}
+.a-card.artist{background:linear-gradient(145deg,#321d3c,#22203b 65%,#15353b);border-color:#75476e}
+.a-card .tag{font-size:9px;letter-spacing:.18em;color:var(--a-cyan)}.a-card.artist .tag{color:var(--a-pink)}
+.a-card h3{font:600 clamp(32px,4vw,48px)/1.08 "Playfair Display";margin:20px 0 12px}.a-card>p{color:#d0cad8;line-height:1.8;font-size:13px;max-width:520px}
+.a-card ul{padding-left:18px;color:#e8e2ed;font-size:12px;line-height:2.1;margin:16px 0 28px}.a-card .a-btn{margin-top:auto;align-self:flex-start}
+.a-offers{background:#f0edf5;color:#211b2b}.a-offers .a-heading p{color:#625b6c}.a-offers .a-heading .eyebrow{color:#7644bc}
+.a-offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.a-offer{padding:27px;background:#fff;border:1px solid #ded5e8;min-height:225px}.a-offer span{font-size:9px;letter-spacing:.16em;color:#8952c7}.a-offer h3{font:600 23px "Playfair Display";margin:16px 0 8px}.a-offer p{font-size:12px;line-height:1.8;color:#6d6573}
+.a-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#45394f;border:1px solid #45394f}.a-step{padding:28px;background:#1d1b29}.a-step b{font:600 27px "Playfair Display";color:var(--a-orange)}.a-step h3{font:600 21px "Playfair Display";margin:14px 0 8px}.a-step p{color:#c4bdcc;font-size:12px;line-height:1.8}
+.a-cta{padding:80px 7vw;text-align:center;background:radial-gradient(ellipse at 20% 30%,#5a2d9855,transparent 40%),linear-gradient(120deg,#142e35,#25152f);border-top:1px solid #49375b}.a-cta h2{font:600 clamp(38px,5vw,64px) "Playfair Display";margin:14px auto}.a-cta p{max-width:650px;margin:0 auto 28px;color:#d0c8da;line-height:1.85;font-size:13px}
+.a-note{font-size:10px;color:#a9a2b3;line-height:1.7;margin-top:25px}
+@media(max-width:760px){.a-hero{padding:90px 7vw 70px}.a-dual,.a-offer-grid,.a-flow{grid-template-columns:1fr}.a-card{min-height:400px}.a-section{padding:65px 7vw}}
+</style>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><span class="brand-mark">A</span><span><b>ARDENT</b><small>CREATE · CONNECT · BECOME</small></span></a>
+<button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-navigation" aria-expanded="false">☰</button>
+<nav class="nav" id="primary-navigation"><a href="index.html">Home</a><a href="experience.html">Explore campus</a><a href="#artists">For artists</a><a href="#businesses">For businesses</a><a href="pricing.html">Membership & support</a><a href="development.html">Development vision</a><a class="nav-cta" href="index.html#connect">Get involved</a></nav>
+</header>
+<main>
+<section class="a-hero"><div class="a-hero-inner"><p class="eyebrow">A CREATIVE NETWORK FOR CENTRAL FLORIDA</p><h1>Where talent meets<br><em>opportunity.</em></h1><p>ARDENT is building a connected creative ecosystem for independent artists, creative professionals, entrepreneurs and businesses. Bring your work, your services, your ideas and your ambition.</p><div class="a-actions"><a class="a-btn" href="#artists">I'm an artist</a><a class="a-btn secondary" href="#businesses">I'm a business</a></div></div></section>
+<div class="a-strip"><span>ARTISTS & MAKERS</span><span>CREATIVE BUSINESSES</span><span>COLLABORATION</span><span>VISIBILITY & GROWTH</span></div>
+<section class="a-section" id="artists"><div class="a-heading"><p class="eyebrow">FOR THE PEOPLE WHO CREATE</p><h2>Your talent deserves<br><em>a bigger stage.</em></h2><p>Whether you make music, film, photography, visual art, dance, design or digital content, ARDENT is being shaped to help creators connect with audiences, collaborators and professional resources.</p></div>
+<div class="a-dual">
+<article class="a-card artist"><span class="tag">01 / ARTIST & CREATOR NETWORK</span><h3>Make your work<br>more visible.</h3><p>Build a presence, share your creative direction and connect with a wider community of makers and potential partners.</p><ul><li>Artist profile and featured spotlight opportunities</li><li>Showcase, exhibition and performance interest</li><li>Studio, rehearsal and production interest</li><li>Creative collaborations and networking</li><li>Education, mentorship and master-class interest</li></ul><a class="a-btn" href="index.html#connect">Submit artist interest ↗</a></article>
+<article class="a-card"><span class="tag">02 / INDEPENDENT CREATOR</span><h3>Turn your craft<br>into a career.</h3><p>Explore the business side of creativity and connect with services, learning and opportunities designed to help your work grow.</p><ul><li>Creative business and professional development</li><li>Potential online and in-person learning</li><li>Portfolio and project presentation</li><li>Community events and audience connections</li><li>Future creator membership opportunities</li></ul><a class="a-btn secondary" href="pricing.html">Explore creator membership ↗</a></article>
+</div></section>
+<section class="a-section" id="businesses" style="background:#191724"><div class="a-heading"><p class="eyebrow">FOR COMPANIES & CREATIVE ENTERPRISE</p><h2>Grow your business<br><em>inside a creative economy.</em></h2><p>ARDENT is envisioned as a destination where independent businesses, service providers, brands and creative operators can reach new customers and build meaningful relationships with the creative community.</p></div>
+<div class="a-dual">
+<article class="a-card business"><span class="tag">01 / CREATIVE BUSINESS PARTNERS</span><h3>Put your business<br>in the picture.</h3><p>Connect your company with artists, audiences, students, event-goers and other creative professionals.</p><ul><li>Featured business listing interest</li><li>Brand visibility and sponsorship opportunities</li><li>Vendor, supplier and service-provider connections</li><li>Potential tenant and operating-partner opportunities</li><li>Cross-promotion and community collaborations</li></ul><a class="a-btn" href="index.html#connect">List your business interest ↗</a></article>
+<article class="a-card"><span class="tag">02 / TENANTS & STRATEGIC PARTNERS</span><h3>Build something<br>that belongs.</h3><p>Explore the possibility of operating an independent business or partnering with ARDENT as the campus concept develops.</p><ul><li>Independent creative tenant interest</li><li>Food, retail and specialist service concepts</li><li>Production, education and event partnerships</li><li>Corporate sponsorship and program support</li><li>Long-term collaboration conversations</li></ul><a class="a-btn secondary" href="index.html#connect">Discuss a partnership ↗</a></article>
+</div></section>
+<section class="a-section a-offers"><div class="a-heading"><p class="eyebrow">A NETWORK THAT CREATES VALUE</p><h2>More than a directory.<br><em>A place to connect.</em></h2><p>As ARDENT develops, the goal is to create useful ways for artists and businesses to discover one another and work together.</p></div><div class="a-offer-grid"><article class="a-offer"><span>FOR ARTISTS</span><h3>Visibility</h3><p>Artist features, portfolio spotlights and pathways to showcase creative work.</p></article><article class="a-offer"><span>FOR BUSINESSES</span><h3>Discovery</h3><p>Business profiles, featured listings and opportunities to reach a focused creative audience.</p></article><article class="a-offer"><span>FOR EVERYONE</span><h3>Collaboration</h3><p>Introductions, community events and partnerships that connect talent with services and opportunity.</p></article></div></section>
+<section class="a-section"><div class="a-heading"><p class="eyebrow">HOW TO GET INVOLVED</p><h2>Start with a conversation.</h2><p>Share who you are, what you do and what kind of opportunity you are looking for.</p></div><div class="a-flow"><article class="a-step"><b>01</b><h3>Introduce yourself</h3><p>Tell us whether you are an artist, company, service provider, tenant prospect or potential partner.</p></article><article class="a-step"><b>02</b><h3>Share your vision</h3><p>Describe your work, business, audience and the kind of connection you hope to make.</p></article><article class="a-step"><b>03</b><h3>Stay connected</h3><p>ARDENT can use your inquiry to understand community interest and share relevant development updates.</p></article></div></section>
+<section class="a-cta"><p class="eyebrow">YOUR NEXT CONNECTION STARTS HERE</p><h2>Bring your talent.<br>Bring your business.</h2><p>Tell us how you would like to be part of the ARDENT creative community.</p><a class="a-btn" href="index.html#connect">Connect with ARDENT ↗</a><p class="a-note">ARDENT is a development concept. The facility, memberships, listings, programs, rentals and partnership services described here are proposed and are not yet open or available for purchase. Submitting interest does not create a booking, listing, partnership or payment obligation.</p></section>
+</main>
+<footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">A</span><span><b>ARDENT</b><small>CREATE · CONNECT · BECOME</small></span></a><p>Artist Resources, Development, Education, Networking & Talent</p><div class="footer-bottom"><span>© <span id="year"></span> ARDENT. All rights reserved.</span><span>Development concept · Central Florida</span></div></footer>
+<script>const b=document.querySelector('.menu-toggle'),n=document.querySelector('.nav');function closeNav(){n?.classList.remove('open');b?.setAttribute('aria-expanded','false');b?.setAttribute('aria-label','Open menu')}b?.addEventListener('click',()=>{const o=n?.classList.toggle('open')??false;b.setAttribute('aria-expanded',String(o));b.setAttribute('aria-label',o?'Close menu':'Open menu')});document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',closeNav));document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNav()});const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();</script>
+</body></html>
