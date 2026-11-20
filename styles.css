@@ -77,3 +77,20 @@ footer{border-top:1px solid #9a7b4a}
 .footer-cta{padding:30px 0 55px;margin-bottom:35px;border-bottom:1px solid #353535}
 .footer-cta h2{color:#f5f1e9}
 @media(max-width:700px){.experience-band,.roadmap-section{grid-template-columns:1fr;gap:30px}.experience-band{padding:65px 7vw}.explorer-tabs{display:grid;grid-template-columns:1fr 1fr}.explorer-tab{border-bottom:1px solid #494949;padding:14px 9px}.explorer-panel{grid-template-columns:1fr}.explorer-panel img{grid-row:1;min-height:220px;max-height:260px}.explorer-panel>div{padding:25px}.roadmap article{grid-template-columns:28px 1fr}.roadmap article small{grid-column:2}.experience-stats{gap:8px}.experience-stats div{padding:18px}}
+
+
+/* ARDENT destination-level experience */
+.pathways-section{background:#171a1b;color:#f4f0e8}
+.pathways-heading{max-width:760px;margin-bottom:44px}
+.pathways-heading h2{font-size:clamp(42px,5.2vw,66px)}
+.pathways-heading>p:last-child{max-width:590px;color:#bcb9b1;line-height:1.9;font-size:14px}
+.pathways-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.pathway-card{min-height:300px;padding:25px 22px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;background:#222728;border:1px solid #414545;color:#f4f0e8;cursor:pointer;transition:transform .25s ease,border-color .25s ease,background .25s ease}
+.pathway-card:hover,.pathway-card:focus-visible{transform:translateY(-5px);border-color:#c5a66b;background:#292d2d;outline:none}
+.pathway-number{font-size:9px;letter-spacing:.17em;color:#c5a66b}
+.pathway-icon{font:400 38px "Playfair Display";color:#d4b777;margin:28px 0 17px}
+.pathway-card strong{font:600 22px "Playfair Display";margin-bottom:10px}
+.pathway-card>span:not(.pathway-number):not(.pathway-icon){font-size:11px;line-height:1.8;color:#bdbab2}
+.pathway-card>b{font-size:8px;letter-spacing:.12em;color:#d4b777;margin-top:auto;padding-top:24px}
+@media(max-width:900px){.pathways-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.pathways-grid{grid-template-columns:1fr}.pathway-card{min-height:245px}}
