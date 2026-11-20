@@ -83,6 +83,11 @@ if(year) year.textContent=new Date().getFullYear();
 const ARDENT_SUPABASE_URL='https://rpzmjiiomgjttjjrkkqf.supabase.co';
 const ARDENT_SUPABASE_KEY='sb_publishable_Lwcv2EAfLV4gAn51_JtlVA_iEEimZIi';
 const interestForm=document.getElementById('interestForm');
+const requestedInterest=new URLSearchParams(window.location.search).get('interest');
+if(requestedInterest) {
+  const interestSelect=interestForm?.querySelector('select[name="interest"]');
+  if(interestSelect && [...interestSelect.options].some(option=>option.value===requestedInterest)) interestSelect.value=requestedInterest;
+}
 if(interestForm) interestForm.addEventListener('submit',async event => {
   event.preventDefault();
   const form=event.currentTarget;
