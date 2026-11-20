@@ -142,3 +142,77 @@ footer{background:#12111c;border-top-color:var(--ardent-teal)}
 .x-visit{background:linear-gradient(115deg,#e5b85f,#d97761);color:var(--ardent-ink)}
 .faq-section{background:#f8f4ed}.faq-list summary:after{color:var(--ardent-teal)}
 @media(max-width:700px){.nav{background:var(--ardent-ink)}}
+
+
+/* ARDENT CREATIVE COLOR STORY — vivid, contemporary arts-district palette */
+:root{
+  --ardent-ink:#17152b;
+  --ardent-plum:#35204f;
+  --ardent-teal:#087f8c;
+  --ardent-coral:#ff6b5e;
+  --ardent-amber:#ffc857;
+  --ardent-lilac:#c5a3ff;
+  --ardent-paper:#fff7ed;
+  --ardent-line:rgba(53,32,79,.2);
+  --ardent-blue:#4263eb;
+  --ardent-pink:#ed5ab3;
+  --ardent-lime:#b8d94b;
+}
+body{background:var(--ardent-paper);color:var(--ardent-ink)}
+.site-header{background:linear-gradient(100deg,#17152b 0%,#35204f 65%,#174d61 100%)}
+.brand-mark{border-color:var(--ardent-pink);color:var(--ardent-amber)}
+.brand small,.nav-cta,.portal-link{color:var(--ardent-amber)}
+.nav a:hover,.nav a:not(.nav-cta):hover{color:#ff9bd8}
+.hero-shade{background:linear-gradient(105deg,rgba(23,21,43,.96),rgba(53,32,79,.78) 48%,rgba(8,127,140,.35))}
+.eyebrow,.dev-kicker,.x-hero .eyebrow{color:#ff8a75}
+.hero h1 em,h2 em,.dev-hero h1 em,.x-hero h1 em{color:#ffc857}
+.gold{background:linear-gradient(110deg,#ffc857,#ff8a75);color:#21172d}
+.outline{border-color:#c5a3ff}
+.experience-band{background:linear-gradient(120deg,#ffe0c2 0%,#e8d8ff 48%,#c7f0e7 100%)}
+.experience-band h2 em,.roadmap-section h2 em,.footer-cta h2 em{color:#087f8c}
+.dark-section,.pathways-section,.floorplan-section,.portal-paths{background:linear-gradient(130deg,#17152b,#302044 72%,#173c4b);color:#fff8f0}
+.space-explorer,.tour-feature{background:#35204f;border-color:rgba(197,163,255,.45)}
+.explorer-tab.active{background:#087f8c;color:white}
+.space-card{border-color:rgba(255,200,87,.58)}
+.space-card span,.coming,.text-link{color:#ffc857}
+.programs,.department-section{background:#fff0df}
+.program-list{background:#dfc8d7;border-color:#dfc8d7}
+.program-list>div,.department-grid article{background:#fffaf3}
+.program-list span,.department-grid article>span{color:#087f8c}
+.feature,.radio-section{background:linear-gradient(120deg,#35204f,#1d5260)}
+.radio-art{border-color:#ff6b5e;background:radial-gradient(circle,#61406f,#21172f 72%);color:#ffc857}
+.vision-section{background:linear-gradient(120deg,#f8dfd7,#e4d8f6 55%,#d3eee5)}
+.vision-columns article{background:#fffaf3;border-left-color:#ed5ab3}
+.pathway-card{background:#29213e;border-color:#68527d}
+.pathway-card:hover,.pathway-card:focus-visible{border-color:#ff6b5e;background:#3a2b50}
+.pathway-number,.pathway-icon,.pathway-card>b{color:#ffc857}
+.tour-caption{background:#35204f}
+.tour-controls button{border-color:#ff6b5e;color:#ffc3b9}
+.tour-dot.active{background:#ed5ab3}
+.floorplan-map{background-color:#29213e;border-color:#68527d}
+.plan-zone{border-color:#ffc857;background:rgba(255,200,87,.16)}
+.plan-zone.active,.plan-zone:hover{background:#ffc857;color:#17152b}
+.plan-detail{background:#352747;border-color:#725c85}
+.portal-path-grid a{background:#29213e;border-color:#68527d}
+.portal-path-grid a:hover{border-color:#ff6b5e}
+.connect-section{background:linear-gradient(120deg,#17152b,#35204f)}
+.contact-form input,.contact-form select,.contact-form textarea{background:#29213e;border-color:#68527d}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline-color:#ed5ab3}
+footer{background:#12101f;border-top-color:#087f8c}
+.dev-hero{background-image:linear-gradient(105deg,rgba(23,21,43,.95),rgba(53,32,79,.72)),url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=2000&q=90')}
+.dev-section.dark{background:#17152b}
+.dev-grid{background:#dfc8d7;border-color:#dfc8d7}
+.dev-grid article{background:#fffaf3}
+.dev-grid article span,.phase span{color:#087f8c}
+.model-card{background:#29213e;border-color:#68527d}
+.dev-cta,.x-visit{background:linear-gradient(110deg,#ffc857,#ff8a75 52%,#ed5ab3);color:#21172d}
+.x-hero{background-color:#17152b}
+.x-zone:hover{border-color:#ff6b5e}
+.x-zone span,.x-zone small{color:#ffc857}
+.x-section{background:#17152b}
+.x-section.light{background:#fff0df;color:#17152b}
+.x-path{background:#29213e;border-color:#68527d}
+.x-path b{color:#ffc857}
+.faq-section{background:#fffaf3}
+.faq-list summary:after{color:#087f8c}
+@media(max-width:700px){.nav{background:#21172f}}
