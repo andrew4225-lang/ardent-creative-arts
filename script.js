@@ -8,3 +8,11 @@ const explorerContent={
  arts:{eyebrow:'04 / VISUAL ARTS',title:'Give ideas a place to live.',copy:'Artist workspaces, exhibitions and a gallery that invite discovery, creative exchange and new perspectives.',image:'https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1100&q=85',alt:'Visual arts gallery concept'}
 };
 document.querySelectorAll('.explorer-tab').forEach(tab=>tab.addEventListener('click',()=>{const item=explorerContent[tab.dataset.space];if(!item)return;document.querySelectorAll('.explorer-tab').forEach(t=>{const active=t===tab;t.classList.toggle('active',active);t.setAttribute('aria-selected',String(active));});const panel=document.getElementById('spaceExplorerPanel');panel.classList.add('changing');panel.querySelector('.eyebrow').textContent=item.eyebrow;panel.querySelector('h3').textContent=item.title;panel.querySelector('p').textContent=item.copy;panel.querySelector('img').src=item.image;panel.querySelector('img').alt=item.alt;setTimeout(()=>panel.classList.remove('changing'),180);}));
+
+
+// Audience pathways preselect the relevant inquiry and guide visitors to the contact form.
+document.querySelectorAll('.pathway-card').forEach(card=>card.addEventListener('click',()=>{
+ const select=document.querySelector('#interestForm select[name="interest"]');
+ if(select){select.value=card.dataset.interest;}
+ document.querySelector('#connect')?.scrollIntoView({behavior:'smooth'});
+}));
